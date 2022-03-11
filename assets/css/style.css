@@ -13,17 +13,17 @@ body {
   color: #4e4e4e;
 }
 
-h1,
+
 h2,
 h3,
 h4,
-h5,
+
 h6 {
   color: #1e1e1e;
 }
 
 a {
-  color: #1e1e1e;
+  color: green;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -454,7 +454,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -566,7 +566,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -932,7 +932,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .portfolio-details .portfolio-description p {
-  padding: 0;
+  padding: 0 0 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1283,7 +1283,8 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
-  padding: 25px 0;
+  padding: 10px 0;
+  margin-top: 80px;
   background: #0062d3;
 }
 footer .copyright {
